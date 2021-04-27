@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'myshop',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'w2O6zMRrLTyjfTLDo62KG9dtXaTBGqP8U0VkcffmRC0kXc8cgCjWUf8XhY5EO8jj',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2021-04-27',
+    'locale' => 'fr-FR',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'yZ46AaZMhjJXNYkXM8rNmmLzLesgRimWDnq1J0o4VKYKFIQQ65MIz6rjSZkyC8tm',
+    'cookie_iv' => 'zaAadoJW554vygLxmAsw909COMR7wngc',
+    'new_cookie_key' => 'def00000cd516184929aa009be201265c632a8c99dee0b91b6c012de7fd7e687b4413f1d2e936056da919a3739bfd0aca721feffb09fdb36bcb57834132cb5ecb79a0eb6',
+  ),
+);

@@ -1,0 +1,14 @@
+<VirtualHost *:80>  
+	ServerName myshop.local 
+	DocumentRoot C:/xampp/htdocs/myshop
+	<Directory />    
+		Options FollowSymLinks  
+		AllowOverride All  
+	</Directory>  
+ 	<Directory C:/xampp/htdocs/myshop>  
+		Options Indexes FollowSymLinks MultiViews  
+		AllowOverride All  
+		Order allow,deny  
+		allow from all  
+	</Directory>  
+</VirtualHost>
